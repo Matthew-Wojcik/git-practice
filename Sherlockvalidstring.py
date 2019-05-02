@@ -15,7 +15,8 @@ def characterCount(string):
 
     for count in cCount.values():
         counts.append(count)
-        print (count)
+        if __debug__:
+            print (count)
 
 
     differences = 0
